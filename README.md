@@ -17,4 +17,4 @@ tools:
 11. anew
 12. httpx
 13. nuclei
-14. 
+14. IIS-Shortname-Scanner
