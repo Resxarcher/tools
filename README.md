@@ -1,2 +1,3 @@
 # tools
-tools installer
+chmod +x install.sh
+INSTALL GOLANG MANUALY!
