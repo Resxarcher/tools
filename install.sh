@@ -7,10 +7,15 @@ apt install git -y
 apt install python3 -y
 apt install python3-pip -y
 export PATH=$PATH:/usr/local/go/bin
+go install github.com/resxarcher/paramprobe@latest
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 go install github.com/ffuf/ffuf/v2@latest
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
+go install -v github.com/projectdiscovery/notify/cmd/notify@latest
+go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 GO111MODULE=on go install github.com/jaeles-project/gospider@latest
 go install github.com/BishopFox/jsluice/cmd/jsluice@latest
 go install -v github.com/tomnomnom/anew@latest
@@ -31,3 +36,4 @@ pip3 install -r requirements.txt
 python3 setup.py install
 cd ..
 mv ~/go/bin/* /bin
+echo "All Done. :)"
